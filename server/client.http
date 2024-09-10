@@ -1,0 +1,14 @@
+@baseUrl = http://localhost:3333 
+
+# @name send
+POST {{baseUrl}}
+Content-Type: application/json
+
+{
+  "token": "ExponentPushToken[dQ_Xt-JLKSx0twTKdpdypn]",
+  "title": "Teste de outro dispositivo",
+  "body": "Enviando a notificação certa!",
+  "sound": "default"
+}
+
+###
